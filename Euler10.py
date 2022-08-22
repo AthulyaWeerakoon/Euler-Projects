@@ -76,11 +76,11 @@ for k in range(1, num):
     if n:
         prime.append(n)
         if n < num:
-            sum += n
+            _sum += n
     if m:
         prime.append(m)
         if m < num:
-            sum += m
+            _sum += m
     if prime[-1] >= num:
         prime.pop()
         if prime[-1] >= num:
@@ -88,6 +88,6 @@ for k in range(1, num):
         break
 
 
-print(sum)
+print(_sum)
 
 
